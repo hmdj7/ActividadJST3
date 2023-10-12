@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Entrada de texto
+        const texto = " La lluvia en Canarias es una auténtica maravilla";
+
+        // 1. Longitud del texto
+        alert("Longitud del texto: "+ texto.length + " caracteres");
+
+        // 2. Posición de la palabra "Canarias"
+        alert(`Posición de "Canarias": ` + texto.indexOf("Canarias"));
+
+        // 3. Posición de la palabra "Fuerteventura"
+        alert(`Posición de "Fuerteventura": ` + texto.indexOf("Fuerteventura"));
+
+        // 4. Reemplazar "maravilla" por "pesadilla"
+        alert(`Texto con reemplazo: ` + texto.replace("maravilla", "pesadilla"));
+
+        // 5. Substring "Canarias"
+        alert(`Substring de "Canarias": ` + texto.substr(14,8));
+
+        // 6. Texto en mayúscula
+        alert(`Texto en mayúscula: ` + texto.toUpperCase());
+
+        // 7. Eliminar espacio al inicio de la frase
+        alert(`Texto sin espacio al inicio: ` + texto.trimStart());
+
+        // 8. Romper la frase con espacios (Split)
+        alert(`Frase dividida en palabras: ` + texto.split(' '));
+
+    </script>
+</body>
+</html>
