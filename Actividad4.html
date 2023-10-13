@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*Escribir un programa que pregunte el nombre el un producto, su precio y un número de unidades 
+        y muestre por pantalla una cadena con el siguiente formato:
+        <producto>: <unidades> unidades x <precio>€ = <total>€*/ 
+        
+        let producto = prompt("Indica el nombre del producto: ");
+        let precio = parseFloat(prompt("Indica el precio del producto"));
+        let unidades = parseInt(prompt("Indica un numero de unidades"));
+        
+        let total = precio * unidades;
+
+
+        alert(producto + " : " + unidades + " x " + precio + "€ = " + total + " €.");   
+
+
+    </script>
+</body>
+</html>
